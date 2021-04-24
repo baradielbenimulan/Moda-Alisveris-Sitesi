@@ -117,7 +117,7 @@ body{
 	background-color: #f992a6;
 	position: absolute;
 	top: -10px;
-	left: -10px;
+	right: -10px;
 	z-index: -1;
 	/*
 	moda ol başlığının sol üstüne pembe bir kutu ekledik.
@@ -196,6 +196,7 @@ body{
 	margin-top: 80px;
 	padding: 60px;
 	margin-bottom: 20px;
+	color: white;
 }
 
 .subscribe a{
@@ -216,12 +217,26 @@ body{
 	margin-top: 150px;
 }
 
+.fashion-blog{
+	margin: 250px 0 150px 0;
+}
 
 
+.blog-img{
+	margin-top: 50px;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+}
+.blog-img img{
+	width: 100%;
+	height: 100%;
+}
 
-
-
-
+.fashion-blog h5{
+	margin-top: 20px;
+	font-weight: bold;
+}
 
 
 
