@@ -103,6 +103,9 @@ body{
 	background: #fff;
 	position: relative;
 	box-shadow: 0 4px 5px 0 black;
+	/*
+	moda ol başlığı için gölgeli kutu oluşturduk.
+	*/
 }
 
 
@@ -115,4 +118,113 @@ body{
 	position: absolute;
 	top: -10px;
 	left: -10px;
+	z-index: -1;
+	/*
+	moda ol başlığının sol üstüne pembe bir kutu ekledik.
+	*/
 }
+
+
+.title-style::before{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #f992a6;
+	position: absolute;
+	bottom: -10px;
+	left: -10px;
+	z-index: -2;
+	/*
+	moda ol başlığının sağ altına pembe bir kutu ekledik.
+	*/
+}
+
+
+.trending-img{
+	position: relative;
+	margin-bottom: 15px;
+}
+.trending-img img{
+	width: 100%;
+}
+
+.btn-buy{
+	width: 150px;
+	padding: 10px 0;
+	outline: none !important;
+	border:0;
+	border-radius: 20%;
+	position: absolute;
+	background:#fff;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, 0);
+	transition: .20s;
+	opacity: 0;
+}
+.trending-img:hover .btn-buy{
+	transform: translate(-50%, 50%);
+	bottom: 50%;
+	opacity: 1;
+}
+
+.overlay{
+	height: 100%;
+	width: 100%;
+	background: #333;
+	position: absolute;
+	top: 0;
+	opacity: .1;
+	transition: .5s;
+}
+.trending-img:hover .overlay{
+	opacity: .5;
+	height: 100%;
+}
+/* offer */
+.offer{
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.row{
+	margin: initial !important;
+}
+.subscribe{
+	max-width: 500px;
+	margin-top: 80px;
+	padding: 60px;
+	margin-bottom: 20px;
+}
+
+.subscribe a{
+	width: 100px;
+	display: block;
+	color: #fff !important;
+	background: black;
+	text-decoration: none !important;
+	padding: 5px;
+	text-align:center;
+
+}
+
+.offer img{
+	width: 300px;
+	height: 400px;
+	margin: -100px;
+	margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
