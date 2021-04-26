@@ -1,0 +1,244 @@
+html {height: 100%; }
+body {height: 100%; }
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+
+.right-menu li{
+	display: inline-block;
+	margin-top: 30px !important;
+
+}
+.right-menu li .fab{
+	font-size: 18px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.navbar-brand img{
+	width: 40px;
+
+}
+
+.navbar-brand {
+	left: 50%;
+	top: 20px;
+	transform: translateX(-50%);
+	position: absolute;
+	/*
+	x ekseininde tam ortaya aldık anasayfa görselini
+	*/
+
+}
+
+.header{
+	background-color: #f5f6fc;
+	margin-bottom: -80px;
+}
+
+.navbar{
+	padding: 0 35px !important;
+}
+
+.navbar-toggler{
+	border:none !important;
+	outline: none !important;
+	padding: 0 !important;
+	margin-top: 30px;
+}
+.navbar-toggler .fas{
+	font-size:30px;
+	cursor: pointer;
+}
+
+.banner-img{
+	margin: 80px 115px;
+	width: 60%;
+}
+.banner-img img{
+	width: 100%;
+	margin-bottom: -80px
+}
+.banner{
+	position: relative;
+}
+.banner-title{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+.banner-title h1,h2{
+	font-size: 55px;
+	background: rgba(0,0,0,0.75);
+	color: #fff;
+	line-height: 70px;
+	padding: 0 10px 0 10px;
+}
+
+
+/* fashion-trends */
+
+.fashion-trends{
+	padding: 100px 0;
+}
+
+.fashion-box{
+	margin: 80px 0;
+
+}
+
+
+.title-style h1{
+	padding: 40px 0;
+}
+
+.title-style{
+	margin: 0 auto 80px;
+	height: 120px;
+	width: 80%;
+	max-width: 700px;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 4px 5px 0 black;
+	/*
+	moda ol başlığı için gölgeli kutu oluşturduk.
+	*/
+}
+
+
+
+.title-style::after{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #f992a6;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	z-index: -1;
+	/*
+	moda ol başlığının sol üstüne pembe bir kutu ekledik.
+	*/
+}
+
+
+.title-style::before{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #f992a6;
+	position: absolute;
+	bottom: -10px;
+	left: -10px;
+	z-index: -2;
+	/*
+	moda ol başlığının sağ altına pembe bir kutu ekledik.
+	*/
+}
+
+
+.trending-img{
+	position: relative;
+	margin-bottom: 15px;
+}
+.trending-img img{
+	width: 100%;
+}
+
+.btn-buy{
+	width: 150px;
+	padding: 10px 0;
+	outline: none !important;
+	border:0;
+	border-radius: 20%;
+	position: absolute;
+	background:#fff;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, 0);
+	transition: .20s;
+	opacity: 0;
+}
+.trending-img:hover .btn-buy{
+	transform: translate(-50%, 50%);
+	bottom: 50%;
+	opacity: 1;
+}
+
+.overlay{
+	height: 100%;
+	width: 100%;
+	background: #333;
+	position: absolute;
+	top: 0;
+	opacity: .1;
+	transition: .5s;
+}
+.trending-img:hover .overlay{
+	opacity: .5;
+	height: 100%;
+}
+/* offer */
+.offer{
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.row{
+	margin: initial !important;
+}
+.subscribe{
+	max-width: 500px;
+	margin-top: 80px;
+	padding: 60px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.subscribe a{
+	width: 100px;
+	display: block;
+	color: #fff !important;
+	background: black;
+	text-decoration: none !important;
+	padding: 5px;
+	text-align:center;
+
+}
+
+.offer img{
+	width: 300px;
+	height: 400px;
+	margin: -100px;
+	margin-top: 150px;
+}
+
+.fashion-blog{
+	margin: 250px 0 150px 0;
+}
+
+
+.blog-img{
+	margin-top: 50px;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+}
+.blog-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.fashion-blog h5{
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+
+
+
+
