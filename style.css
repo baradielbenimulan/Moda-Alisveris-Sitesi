@@ -138,7 +138,7 @@ body{
 	moda ol başlığının sağ altına pembe bir kutu ekledik.
 	*/
 }
-
+ 
 
 .trending-img{
 	position: relative;
@@ -217,6 +217,10 @@ body{
 	margin-top: 150px;
 }
 
+
+
+
+ /* kampanyalar */
 .fashion-blog{
 	margin: 250px 0 150px 0;
 }
@@ -239,6 +243,98 @@ body{
 }
 
 
+/* markalar */
+
+.fashion-brands{
+	margin-bottom: 150px;
+}
+.col-md-3{
+	margin-left: 70px;	
+}
+.marka-logo{
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	border-radius: 50%;
+	margin: 50px auto 30px;
+	box-shadow: 0 2px 40px 0 rgba(110,130,208,18);
+}
+.marka-logo img{
+	width: 100%;
+	margin: 50px auto;
+}
+
+/* footer alanı*/
+
+.footer{
+	margin: 150px;
+	background: #f5f6fc
+}
+.payment, .insta-img, .app-download{
+	margin: 50px auto;
+}
+.payment img{
+	width: 300px;
+	cursor: pointer;
+}
+.insta-img img{
+	width: 80px;
+	padding: 5px;
+	cursor: pointer;
+}
+.app-download img{
+	width: 200px;
+	cursor: pointer;
+}
+.footer h5{
+	margin-bottom: 50px;
+}
+.footer h5::before{
+	content: '';
+	width: 70px;
+	height: 3px;
+	background: #4f74e8;
+	top: 80px;
+	position: absolute;
+}
+.footer-icons{
+	text-align: right;
+}
+.footer-icons .fab{
+	margin: 0 10px auto;
+	font-size: 20px;
+	cursor: pointer;
+}
 
 
-
+/* küçük cihazlar için */
+@media only screen and (max-width: 900px)
+{
+	.banner-img{
+		margin: 40px auto;
+		width: 80%;
+	}
+	.banner-title{
+		top: 180px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.banner-title h1{
+		font-size: 16px;
+		padding: 5px;
+		line-height: 20px;
+	}
+	.title-style h1{
+		font-size: 25px;
+	}
+	.offer-img{
+		margin-top: 20px !important;
+		margin-bottom: 0 !important;
+	}
+	.footer-icons{
+		text-align: center;
+	}
+	.copyright{
+		text-align: center;
+	}
+}
